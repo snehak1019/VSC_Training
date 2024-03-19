@@ -1,0 +1,32 @@
+#include <stdio.h>
+enum TemperatureGrade{hot,warm,cool,cold};
+
+enum TemperatureGrade temp(float cel,enum TemperatureGrade t)
+  { if(cel>40)
+    { t=hot;
+    return t;
+    }
+    if(25<cel<40)
+    { t=warm;
+    return t;
+    }
+    if(10<cel<25)
+    { t=cool;
+    return t;
+    }
+    if(cel<10)
+    { t=cold;
+    return t;
+    }
+  }    
+
+int main() {
+   enum TemperatureGrade t;
+   float cel;
+   printf("Enter a temperature:\n");
+   scanf("%f",&cel);
+   enum TemperatureGrade p=temp(cel,t);
+   printf("%s",p);
+   
+  return 0; 
+}
