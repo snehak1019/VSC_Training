@@ -8,7 +8,7 @@
 #include <avr/io.h>
 #include "minmax.h"
 int min_max = 1;
-    
+//minmax
 int main()
 {   int ans;
     int arr[7] = {1,3,4,5,12,56,7};
