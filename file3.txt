@@ -6,3 +6,4 @@ create conflict
 avoid conflict
 
 c1
+c2
