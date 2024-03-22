@@ -11,7 +11,7 @@ int min_max = 1;
 //minmax
 int main()
 {   int ans;
-    int arr[7] = {1,3,4,5,12,56,7};
+    int arr[7] = {1,3,4,5,12,45,7};
     
 	ans=minmax(arr);
     return 0;
