@@ -1,7 +1,6 @@
 created a test file
 by Jothi
-<<<<<<< HEAD
+
 1234
-=======
 hi here
->>>>>>> feature
+
