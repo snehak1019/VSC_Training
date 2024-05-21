@@ -432,13 +432,13 @@ END GROUP
  .debug_frame   0x00000000       0x34 main.o
  .debug_frame   0x00000034       0x34 minmax.o
 
-.debug_str      0x00000000     0x102b
+.debug_str      0x00000000     0x1021
  *(.debug_str)
  .debug_str     0x00000000      0xecd C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega4808/avrxmega3/crtatmega4808.o
- .debug_str     0x00000ecd      0x149 main.o
-                                0x17d (size before relaxing)
- .debug_str     0x00001016       0x15 minmax.o
-                                0x111 (size before relaxing)
+ .debug_str     0x00000ecd      0x13f main.o
+                                0x173 (size before relaxing)
+ .debug_str     0x0000100c       0x15 minmax.o
+                                0x107 (size before relaxing)
 
 .debug_loc      0x00000000       0x8e
  *(.debug_loc)
